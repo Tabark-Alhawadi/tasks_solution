@@ -1,0 +1,145 @@
+:root{
+    --primaryColor: rgb(179, 0, 255) ;
+    --secondaryColor: rgb(125, 13, 244) ;
+    --lightColor: rgb(219, 143, 254) ;
+    --bgColor-1: rgb(0, 0, 0) ;
+    --bgColor-2: rgb(255, 255, 255) ;
+    --padding: 2%;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: var(--bgColor-2);
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+h4{
+  font-size: 1rem; 
+   letter-spacing: 0.10rem;
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgColor-1);
+    display: flex;
+    flex-direction:column ;
+}
+
+span{
+    color: var(--secondaryColor);
+}
+
+
+
+nav{
+    padding-top: 1.5rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    padding-left: 83rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.content{
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.container-texts{
+    position: top;
+    bottom: 90px;
+    padding-top: 0;
+}
+
+.container-images{
+    width: 70%;
+    height: 95%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.container-images img{
+    position: absolute;
+    bottom: 50%;
+    height: 70%;
+    left: 50%;
+    transform: translate(-25%);
+    transition: bottom 1s, left 1s;
+    width: 60%;
+    height: 140%;
+}
+
+.container-images:hover .pic{
+    left: 45%;
+    bottom: 10%;
+}
+
+.text{
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items:center;
+    min-height: 20px;
+    justify-content: space-between;
+}
+
+.container-texts h3{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-texts h3 a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--bgColor-2);
+}
+
+.tasks{
+    color: var(--secondaryColor);
+    text-align: left;
+    text-decoration: none;
+    font-family:'Josefin Sans', sans-serif ;
+    text-transform: capitalize;
+}
+
+a{
+    text-align: bottom left;
+    text-decoration: none;
+    font-family:'Josefin Sans', sans-serif ;
+    text-transform: capitalize;
+    color: var(--bgColor-2);
+
+}
+
+ div a:hover{
+    color: var(--secondaryColor);
+    transition: 0.4s;
+}
