@@ -5,26 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task#1</title>
+    <style>
+        .even{
+            visibility:hidden;
+        }
+
+        .odd{
+            width: 100px;
+            height: 35px;
+            background-color: rgb(116, 48, 164);
+            text-align: center;
+            margin: 0px 4px ;
+            border: 2px solid black; 
+            float: left; 
+            color: white;
+            font-size: 36px;
+        }
+       
+
+        p{
+            display: inline-block;
+        }
+    </style>
 </head>
-<style>
-li{
-    display: inline-block;
-    background-color: rgb(93, 49, 138);
-    font-size:36px;
-    width: 100px;
-    height: 50px;
-    border: 2px solid black;
-    text-align: center;
-}
-</style>
 <body>
-    <h1>Hide even numbers from 1 to 10 !</h1><br>
-   <ul>
-        <li>1</li>
-        <li>3</li>
-        <li>5</li>
-        <li>7</li>
-        <li>9</li>
-   </ul>    
+    
+<h1>Hidden even numbers from 1 to 10 !</h1>
+<div>
+<p class="odd">1</p>
+<p class="even">2</p>
+<p class="odd">3</p>
+<p class="even">4</p>
+<p class="odd">5</p>
+<p class="even">6</p>
+<p class="odd">7</p>
+<p class="even">8</p>
+<p class="odd">9</p>
+<p class="even">10</p>
+</div>
 </body>
 </html>
