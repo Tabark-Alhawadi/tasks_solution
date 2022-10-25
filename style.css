@@ -95,7 +95,7 @@ nav{
     transform: translate(-25%);
     transition: bottom 1s, left 1s;
     width: 60%;
-    height: 350%;
+    height: 650%;
 }
 
 .container-images:hover .pic{
