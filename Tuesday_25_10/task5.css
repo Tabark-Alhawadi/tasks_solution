@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.simeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.leftSide{
+    display: flex;
+}
+.title{
+    margin-left: 4px;
+}
+.title p{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon{
+    font-size: 1.5rem;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.fa-solid.fa-utensils{
+    font-size: 3rem;
+    color: #fff;
+    background-color: #333; 
+    padding: 4px;
+}
+
+hr{
+    margin-top: 10px;
+    border-style: inset;
+    border: 3px inset #333;
+}
+
+.title2{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jali{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.third p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.paper{
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+    background-image: url(./lined-paper-texture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-inline: 7px;
+}
+.paper div{
+    margin-right: 10px;
+}
+
+.fourth{
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+.content{
+    margin-right: 40px;
+}
+.india{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.btn {
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-size: 200%;
+    }
+  .btn:hover {
+      color: var(--bs-btn-hover-color);
+      background-position: right;
+    }
+  .btn-primary {
+    background-image: linear-gradient( to left, rgb(160, 29, 231) , rgb(27, 136, 231) , #4b14b0 );
+    width: 190px;
+    height: 60px;
+    margin-top: 65px;
+    margin-left: 170px;
+    --bs-btn-hover-color: #fff;
+    }
+
+
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text > *{
+    margin: 20px;
+}
